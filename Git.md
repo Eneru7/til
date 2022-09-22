@@ -222,5 +222,13 @@ git push origin --delete branch_name #删除远程分支
 git branch -dr [remote/branch]
 ```
 
+# 其他问题
+
+## 中文文件名编码错误
+
+```bash
+$ git config --global core.quotepath false
+```
+
 
 

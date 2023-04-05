@@ -1,0 +1,14 @@
+14：28
+spring上传下载文件
+静态资源放在resource文件夹中
+14：44
+重定向和请求转发
+重定向状态码302，可以重定向内部的地址，也可以是外部的url
+resp.sendRedirect("xxx");【字符串参数以"/"开头会从根目录开始】
+请求转发是服务器内部的跳转机制，目的是将本次请求转发给其他servlet处理
+resp.getRequestDispatcher("/xxx").forward(req.resp);
+请求转发不能跨域
+15：07
+ServletContext对象
+
+【问题】resouces路径和webapp路径
